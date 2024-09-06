@@ -10,6 +10,7 @@
 // // console.log(arr4)
 
 
+
 // // .split(), string 문자열에서만 쓸 수 있음
 // const phoneNumber = "010-4068-5166";
 // console.log(phoneNumber.split("-")); //"-" 요 친구들 잘라줌 결과값 [ '010', '4068', '5166' ]
