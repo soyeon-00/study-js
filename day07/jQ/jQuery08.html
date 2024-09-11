@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery 최종 실습</title>
+  <style>
+    .p {
+    }
+    .box {
+      width: 100px;
+      height: 30px;
+      border: solid 2px #333;
+      text-align: center;
+      line-height: 30px;
+      box-sizing: border-box;
+
+    }
+
+    .box1 {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .box2 {
+      display: flex;
+      width: 200px;
+      flex-direction: row;
+      border: solid 2px #333;
+      width: 200px;
+    }
+
+    .box3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    #one {
+      background-color: burlywood;
+    }
+    .check {
+      width: 50px;
+      height: 30px;
+    }
+    .check-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3px;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="box3">
+    <p>요금표</p>
+    <div class="box2">
+      <div class="box1">
+        <div class="box" id="one">구분</div>
+        <div class="box">아동</div>
+        <div class="box">청소년</div>
+        <div class="box">성인</div>
+      </div>
+      <div class="box1">
+        <div class="box" id="one">요금</div>
+        <div class="box">무료</div>
+        <div class="box">2000</div>
+        <div class="box">5000</div>
+      </div>
+    </div>
+    </body>
+  </div>
+  <p>구분</p>
+  <div class="check-box1"></div>
+  <div class="check-box" >
+    <input type="text" name="check" placeholder="" >
+    <button class="check">확인</button>
+  </div>
+<script src="./jQuery.js"></script>
+<script>
+
+</script>
+</html>~~
