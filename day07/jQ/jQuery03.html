@@ -16,22 +16,3 @@
   })
 </script>
 </html>
-
-// 전체 동의를 완성하기
-NodeList.prototype.map = Array.prototype.map;
-
-const all = document.querySelector(".all")
-const terms = document.querySelectorAll(".term")
-
-
-all.addEventListener("click",()=> {
-terms.forEach((check) => {
-  check.checked = all.checked;
-})
-})
-
-terms.forEach((term) => {
-term.addEventListener("click", () => {
-all.checked = terms.map((term) => term.checked).filter((checked) => checked).length === 3;
-})
-})
