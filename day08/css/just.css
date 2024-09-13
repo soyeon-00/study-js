@@ -1,0 +1,240 @@
+div {
+  box-sizing: border-box;
+}
+
+
+/* 상단 로고 */
+#logo1 {
+  width: 200px;
+  height: 40px;
+  margin: 30px 0;
+}
+.logo-box {
+  width: 200px;
+  height: 100px;
+  padding-left: 25px;
+  padding-right: 575px;
+}
+
+
+/* main 메뉴바 */
+.main-menu {
+  width: 150px;
+  height: 50px;
+  background-color:lightgray;
+  text-align: center;
+  line-height: 50px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  position: relative; /* 서브 메뉴의 위치를 부모 박스에 상대적으로 설정 */
+}
+
+
+/* sub 메뉴바 */
+.sub-menu {
+  width: 130px;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  line-height: 30px;
+  border-bottom: solid 1px black;
+
+}
+
+.main-menu:hover {
+    background-color: black;
+    color: white;
+  }
+
+.sub-menu:hover {
+  background-color: black;
+  color: white;
+}  
+
+.box1 {
+  width: 150px;
+  height: 120px;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-box{
+  display: flex;
+  flex-direction: row;
+
+}
+.sub {
+  margin-top: 50px;
+  width: 100%;
+  height: 140px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  /* z-index: 1; */
+}
+
+
+
+/* 메뉴 합친거..? */
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* 슬라이드 이미지 */
+.slide {
+  width: 1200px;
+  height: 300px;
+}
+
+.slide-box{
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  overflow-y: hidden;
+  /* overflow-x: hidden; */
+  width: 1200px;
+  box-sizing: border-box;
+}
+
+ 
+/* .slide1 {
+  animation: slide1-move 3s infinite;
+}
+
+@keyframes slide1-move {
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(-1200px, 0);
+  }
+}
+
+
+.slide2 {
+  animation: slide2-move 6s infinite;
+}
+
+@keyframes slide2-move {
+  0%{
+    transform: translate(1200px, 0);
+  }
+  100%{
+    transform: translate(-1200px, 0);
+  }
+}
+
+.slide3 {
+  animation: slide3-move 9s infinite;
+}
+
+@keyframes slide3-move {
+  0%{
+    transform: translate(1200px, 0);
+  }
+  100%{
+    transform: translate(-1200px, 0);
+  }
+} */
+
+.banner{
+  width: 480px;
+  height: 200px;
+}
+
+.notice{
+  width: 220px;
+  text-align: center;
+  border-bottom: solid 3px black;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.notice1{
+  display: flex;
+  height: 25px;
+}
+
+.notice-box{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 30px;
+}
+
+.notice-box2{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 60px;
+}
+
+.notice-box1 {
+  display: flex;
+  flex-direction: row;
+}
+
+/* #banner2 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+} */
+
+.banner-box {
+  display: flex;
+  flex-direction: row;
+}
+
+
+#logo2 {
+  width: 200px;
+  height: 40px;
+  margin: 30px 0;
+}
+
+.logo-box1 {
+  width: 200px;
+  height: 100px;
+  padding-left: 25px;
+  margin-right: 100px;
+
+}
+
+.address {
+  width: 675px;
+  text-align: left;
+  font-size: 15px;
+  margin: 30px 0;
+
+}
+
+.sns {
+  display: flex;
+  flex-direction: row;
+}
+.sns-box {
+  width: 200px;
+  height: 100px;
+  padding-right: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 100px;
+}

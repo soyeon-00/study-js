@@ -22,7 +22,7 @@
 <script>
   const $button = $("button");
   const $ul = $("ul");
-  $button.on("click", () => {
+  $button.on("mouseove", () => {
     if($ul.css("display") === "none"){
       // $ul.slideDown();
       // $ul.fadeIn();
@@ -34,7 +34,7 @@
     }
     // $ul.fadeToggle(1000);
     // $ul.toggle();
-    $ul.slideToggle(1000)
+    // $ul.slideToggle(1000)
   })
 </script>
 </html>
